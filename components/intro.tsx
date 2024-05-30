@@ -15,7 +15,7 @@ export default function Intro() {
   return (
     <section
       ref={ref}
-      id="home"
+      id="/"
       className="mb-28 max-w-[50rem] text-center sm:mb-0  scroll-mt-[100rem] mt-24"
     >
       <div className="flex items-center justify-center">
@@ -50,7 +50,7 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-            👋
+            
           </motion.span>
         </div>
       </div>
